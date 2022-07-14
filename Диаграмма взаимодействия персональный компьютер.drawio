@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T16:03:44.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SlrijH8DX8rIGt7Nc385" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T16:05:37.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vRXx9R-9RDJhicdoI3Di" version="20.0.4" type="github">
   <diagram id="52JVPW_-W_DspBKOkmhL" name="Страница 1">
     <mxGraphModel dx="1511" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UfRqp4jwjTOtFYs2ObXq-27" value="Управление курсором" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.005;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.014;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UfRqp4jwjTOtFYs2ObXq-4" target="UfRqp4jwjTOtFYs2ObXq-28">
+        <mxCell id="UfRqp4jwjTOtFYs2ObXq-27" value="Передача движения" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.005;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.014;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UfRqp4jwjTOtFYs2ObXq-4" target="UfRqp4jwjTOtFYs2ObXq-28">
           <mxGeometry x="-0.8838" y="1" relative="1" as="geometry">
             <mxPoint x="60" y="330" as="sourcePoint" />
             <mxPoint x="570" y="330" as="targetPoint" />
@@ -127,7 +127,7 @@
             <mxPoint x="569.6599999999999" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UfRqp4jwjTOtFYs2ObXq-31" value="Передача движения" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.894;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.034;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UfRqp4jwjTOtFYs2ObXq-28" target="UfRqp4jwjTOtFYs2ObXq-20">
+        <mxCell id="UfRqp4jwjTOtFYs2ObXq-31" value="Управление курсором" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.894;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.034;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UfRqp4jwjTOtFYs2ObXq-28" target="UfRqp4jwjTOtFYs2ObXq-20">
           <mxGeometry x="-0.5838" relative="1" as="geometry">
             <mxPoint x="560" y="680" as="sourcePoint" />
             <mxPoint x="260" y="681" as="targetPoint" />
