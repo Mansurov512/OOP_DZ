@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Lesson02_4
 {
 
-    public class BankAccount4
+    public class BankAccount
     {
 
         private int _numberOfAccount;//номер счёта
@@ -37,29 +37,35 @@ namespace Lesson02_4
             set { _accType = value; }
 
         }
+
         /// <summary>
         /// Перевод средств со счёта на счёт
         /// </summary>
         /// <param name="AccTo">Счёт(объект) НА который будет перевод</param>
         /// <param name="Amount">Сумма перевода</param>
         /// <returns></returns>
-        public bool TransferMoneyFromMeTo(BankAccount4 AccTo, decimal Amount)
+        public bool TransferMoneyFromMeTo(BankAccount AccTo, decimal Amount)
         {
+            
             if ((this.AccType == AccTo.AccType) && (this.BalanceOfAccount >= Amount))
             {
                 this.BalanceOfAccount -= Amount;
                 AccTo.BalanceOfAccount += Amount;
-                Console.WriteLine($"Со счёта {this} списано {Amount} у.е." +
-                    $"\nБаланс {this} составляет {this.BalanceOfAccount}." +
-                    $"\nБаланс {AccTo} составляет {AccTo.BalanceOfAccount}.");
-
+                Console.WriteLine($"Со счёта номер {this.NumberOfAccount} списано {Amount} у.е." +
+                    $"\nБаланс счёта номер {this.NumberOfAccount} составляет {this.BalanceOfAccount}." +
+                    $"\nБаланс счёта номер {AccTo.NumberOfAccount} составляет {AccTo.BalanceOfAccount}.");
+                               
                 return true;
+
             }
             else
             {
                 Console.WriteLine("Баланс недостаточен или типы счетов не совпадают.");
+
                 return false;
             }
+
+            
 
 
 
