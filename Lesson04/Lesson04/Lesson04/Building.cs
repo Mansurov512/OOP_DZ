@@ -1,4 +1,4 @@
-﻿namespace Builder 
+﻿namespace Builder
 
 {
     public class Building
@@ -8,8 +8,21 @@
         private int _amountFloors;
         private int _amountApartments;
         private int _amountEntrance;
+        private static int _lastNumber;
 
-        private void SetNumber(int a)
+
+        public  int GetLastNumber()
+        {
+            return ++_lastNumber;
+                        
+        }
+        //public int SetLastNumber()
+        //{
+
+        //}
+
+
+        public void SetNumber(int a) //номер дома, прямая установка желаемого номера "руками"
         {
             _number = a;
         }
@@ -18,7 +31,7 @@
         {
             return _number;
         }
-        private void SetHeight(int a)
+        private void SetHeight(int a)//высота дома
         {
             _height = a;
         }
@@ -27,7 +40,7 @@
         {
             return _height;
         }
-        private void SetAmountFloors(int a)
+        private void SetAmountFloors(int a)//количество этажей
         {
             _amountFloors = a;
         }
@@ -36,7 +49,7 @@
         {
             return _amountFloors;
         }
-        private void SetAmountApartments(int a)
+        private void SetAmountApartments(int a)//количество квартир
         {
             _amountApartments = a;
         }
@@ -45,7 +58,7 @@
         {
             return _amountApartments;
         }
-        private void SetAmountEntrance(int a)
+        private void SetAmountEntrance(int a)//количество парадных
         {
             _amountEntrance = a;
         }
@@ -55,19 +68,19 @@
             return _amountEntrance;
         }
 
-        public double HeightOneFloor()
+        public double HeightOneFloor()//высота этажа
         {
             double a = _height / _amountFloors;
             return a;
 
         }
 
-        public int AvarageAmountApartsInEntrance()
+        public int AvarageAmountApartsInEntrance()//среднее число квартир в парадной
         {
             int a = _amountApartments / _amountEntrance;
             return a;
         }
-        public int AvarageAmountApartsAtFloor()
+        public int AvarageAmountApartsAtFloor()//среднее число квартир на этаже
         {
             int a = _amountApartments / _amountFloors;
             return a;

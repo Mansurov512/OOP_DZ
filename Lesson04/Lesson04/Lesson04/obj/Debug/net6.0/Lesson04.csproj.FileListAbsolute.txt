@@ -3,3 +3,13 @@ C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6
 C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6.0\Lesson04.AssemblyInfoInputs.cache
 C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6.0\Lesson04.AssemblyInfo.cs
 C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6.0\Lesson04.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\bin\Debug\net6.0\Lesson04.exe
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\bin\Debug\net6.0\Lesson04.deps.json
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\bin\Debug\net6.0\Lesson04.runtimeconfig.json
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\bin\Debug\net6.0\Lesson04.dll
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\bin\Debug\net6.0\Lesson04.pdb
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6.0\Lesson04.dll
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6.0\refint\Lesson04.dll
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6.0\Lesson04.pdb
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6.0\Lesson04.genruntimeconfig.cache
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson04\Lesson04\Lesson04\obj\Debug\net6.0\ref\Lesson04.dll
