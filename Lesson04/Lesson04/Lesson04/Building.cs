@@ -11,16 +11,11 @@
         private static int _lastNumber;
 
 
-        public  int GetLastNumber()
+        public int GetLastNumber()
         {
-            return ++_lastNumber;
-                        
+            return ++_lastNumber;//префикс прибавляет к предыдущему значению 1, затем происходит вывод значения
+
         }
-        //public int SetLastNumber()
-        //{
-
-        //}
-
 
         public void SetNumber(int a) //номер дома, прямая установка желаемого номера "руками"
         {
@@ -31,7 +26,7 @@
         {
             return _number;
         }
-        private void SetHeight(int a)//высота дома
+        public void SetHeight(int a)//высота дома
         {
             _height = a;
         }
@@ -40,7 +35,7 @@
         {
             return _height;
         }
-        private void SetAmountFloors(int a)//количество этажей
+        public void SetAmountFloors(int a)//количество этажей
         {
             _amountFloors = a;
         }
@@ -49,7 +44,7 @@
         {
             return _amountFloors;
         }
-        private void SetAmountApartments(int a)//количество квартир
+        public void SetAmountApartments(int a)//количество квартир
         {
             _amountApartments = a;
         }
@@ -58,7 +53,7 @@
         {
             return _amountApartments;
         }
-        private void SetAmountEntrance(int a)//количество парадных
+        public void SetAmountEntrance(int a)//количество парадных
         {
             _amountEntrance = a;
         }
@@ -72,7 +67,6 @@
         {
             double a = _height / _amountFloors;
             return a;
-
         }
 
         public int AvarageAmountApartsInEntrance()//среднее число квартир в парадной
@@ -86,5 +80,4 @@
             return a;
         }
     }
-
 }

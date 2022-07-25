@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mikhail\\Desktop\\GB New\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\Lesson04.csproj": {}
+    "C:\\Users\\Mikhail\\Desktop\\GB New\\Test\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\Lesson04.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mikhail\\Desktop\\GB New\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\Lesson04.csproj": {
+    "C:\\Users\\Mikhail\\Desktop\\GB New\\Test\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\Lesson04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikhail\\Desktop\\GB New\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\Lesson04.csproj",
+        "projectUniqueName": "C:\\Users\\Mikhail\\Desktop\\GB New\\Test\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\Lesson04.csproj",
         "projectName": "Lesson04",
-        "projectPath": "C:\\Users\\Mikhail\\Desktop\\GB New\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\Lesson04.csproj",
+        "projectPath": "C:\\Users\\Mikhail\\Desktop\\GB New\\Test\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\Lesson04.csproj",
         "packagesPath": "C:\\Users\\Mikhail\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikhail\\Desktop\\GB New\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\obj\\",
+        "outputPath": "C:\\Users\\Mikhail\\Desktop\\GB New\\Test\\OOP_DZ\\Lesson04\\Lesson04\\Lesson04\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mikhail\\AppData\\Roaming\\NuGet\\NuGet.Config",
