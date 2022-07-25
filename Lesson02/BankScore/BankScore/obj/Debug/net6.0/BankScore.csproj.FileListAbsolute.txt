@@ -1,0 +1,15 @@
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\BankScore.csproj.AssemblyReference.cache
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\BankScore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\BankScore.AssemblyInfoInputs.cache
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\BankScore.AssemblyInfo.cs
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\BankScore.csproj.CoreCompileInputs.cache
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\bin\Debug\net6.0\BankScore.exe
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\bin\Debug\net6.0\BankScore.deps.json
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\bin\Debug\net6.0\BankScore.runtimeconfig.json
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\bin\Debug\net6.0\BankScore.dll
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\bin\Debug\net6.0\BankScore.pdb
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\BankScore.dll
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\refint\BankScore.dll
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\BankScore.pdb
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\BankScore.genruntimeconfig.cache
+C:\Users\Mikhail\Desktop\GB New\OOP_DZ\Lesson02\BankScore\BankScore\obj\Debug\net6.0\ref\BankScore.dll
