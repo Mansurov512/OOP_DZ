@@ -1,17 +1,16 @@
-﻿namespace Lesson07_1;
+﻿//using Lesson07_2;
 
-//public interface ICoder
-//{
-//    void  Encode();
-//    void  Decode();
-//}
+namespace Lesson07_1;
+
+
+
 /// <summary>
 /// Меняет каждую букву в тексте на русском языке на букву с тем же порядковым номером с конца. 
 /// П(п) не меняется, так как располагается в центре алфавита(17-ая). Символы и пробелы без изменений.
 /// </summary>
 public class BCoder
 {
-    public char[] Encode(string text)
+    public string Encode(string text)
     {
         char[] uppercase = new char[] {'А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З',
             'И', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц',
@@ -56,8 +55,20 @@ public class BCoder
                 returnedtext[i] = entredtext[i];//если символ не буква, то оставляем как есть без изменений
             }
         }
+        
+        string s = new string(returnedtext);
 
-        Console.WriteLine(returnedtext);//для проверки работы
-        return returnedtext;
+
+        Console.WriteLine(s);//для проверки работы
+        return s;
+    }
+
+
+
+    public string Decode(string text)
+    {
+        return(Encode(text));
     }
 }
+
+
