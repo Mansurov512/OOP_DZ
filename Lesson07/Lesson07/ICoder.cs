@@ -1,10 +1,8 @@
-﻿
-//namespace Lesson07_2
-//{
-//    public interface ICoder
-//    {
-//         char[] Encode(string text);
-//        // char[] Decode(string text);
-//    }
-//}
-
+﻿namespace Lesson07_2
+{
+    public interface ICoder
+    {
+        string Encode(string text);
+        string Decode(string text);
+    }
+}

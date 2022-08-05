@@ -1,4 +1,4 @@
-﻿//using Lesson07_2;
+﻿using Lesson07_2;
 
 namespace Lesson07;
 
@@ -6,7 +6,7 @@ namespace Lesson07;
 /// Меняет каждую букву в тексте на русском языке на следующую в алфавите. 
 /// Я(я) меняет на А(а). Символы и пробелы без изменений.
 /// </summary>
-public class ACoder
+public class ACoder : ICoder
 {
     public string Encode(string text)
     {
@@ -58,15 +58,15 @@ public class ACoder
             }
         }
 
-        string s = new string(returnedtext);
+        string returnedstring = new string(returnedtext);//преобразование массива char в строку типа string
 
-        Console.WriteLine(s);//для проверки работы
-        return s;
+        Console.WriteLine(returnedstring);//для проверки работы
+        return returnedstring;
     }
     public string Decode(string text)//декодер можно было скопипастить с кодера и чуть изменить пару значений
                                      //в обратную сторону, но так не интересно - чисто для демонстрации можно
                                      //же строчку по кругу прогнать по алфавиту, используя сам кодер, и получить
-                                     //требуемый результат =)
+                                     //требуемый результат с исходным текстом=)
     {
         for (int i = 01; i < 33; i++)
         {

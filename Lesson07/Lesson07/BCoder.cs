@@ -1,14 +1,13 @@
-﻿//using Lesson07_2;
+﻿using Lesson07_2;
 
 namespace Lesson07_1;
-
 
 
 /// <summary>
 /// Меняет каждую букву в тексте на русском языке на букву с тем же порядковым номером с конца. 
 /// П(п) не меняется, так как располагается в центре алфавита(17-ая). Символы и пробелы без изменений.
 /// </summary>
-public class BCoder
+public class BCoder : ICoder
 {
     public string Encode(string text)
     {
@@ -55,20 +54,18 @@ public class BCoder
                 returnedtext[i] = entredtext[i];//если символ не буква, то оставляем как есть без изменений
             }
         }
-        
-        string s = new string(returnedtext);
 
+        string returnedstring = new string(returnedtext);//преобразование массива char в строку типа string
 
-        Console.WriteLine(s);//для проверки работы
-        return s;
+        Console.WriteLine(returnedstring);//для проверки работы
+        return returnedstring;
     }
 
 
 
     public string Decode(string text)
     {
-        return(Encode(text));
+        return(Encode(text));//так как кодер по факту "зеркалит" буквы алфавита, то использование его ещё
+                             //раз возвращает прежний текст
     }
 }
-
-
