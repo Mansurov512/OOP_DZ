@@ -7,7 +7,7 @@ public class DeleteFolderCommand : FileManagerCommand
     private readonly IUserInterface _UserInterface;
     private readonly FileManagerLogic _FileManager;
 
-    public override string Description => "Удаление указанной директории";
+    public override string Description => "Удаление указанной директории. Указать полный путь.";
 
     public DeleteFolderCommand(IUserInterface UserInterface, FileManagerLogic FileManager)
     {

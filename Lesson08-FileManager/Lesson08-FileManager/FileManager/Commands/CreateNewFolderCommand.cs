@@ -7,7 +7,7 @@ public class CreateNewFolderCommand : FileManagerCommand
     private readonly IUserInterface _UserInterface;
     private readonly FileManagerLogic _FileManager;
 
-    public override string Description => "Создание новой директории";
+    public override string Description => "Создание новой директории в текущей. Ввести имя.";
 
     public CreateNewFolderCommand(IUserInterface UserInterface, FileManagerLogic FileManager)
     {

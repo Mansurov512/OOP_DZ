@@ -7,7 +7,7 @@ public class CopyFolderCommand : FileManagerCommand
     private readonly IUserInterface _UserInterface;
     private readonly FileManagerLogic _FileManager;
 
-    public override string Description => "Копирование директории по указанному пути";
+    public override string Description => "Копирование текущей директории по указанному полному пути.";
 
     public CopyFolderCommand(IUserInterface UserInterface, FileManagerLogic FileManager)
     {

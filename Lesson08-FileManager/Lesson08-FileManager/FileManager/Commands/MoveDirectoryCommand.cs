@@ -7,7 +7,7 @@ public class MoveDirectoryCommand : FileManagerCommand
     private readonly IUserInterface _UserInterface;
     private readonly FileManagerLogic _FileManager;
 
-    public override string Description => "Перемещение содержимого директории";
+    public override string Description => "Перемещение текущей директории по указанному полному пути.";
 
     public MoveDirectoryCommand(IUserInterface UserInterface, FileManagerLogic FileManager)
     {

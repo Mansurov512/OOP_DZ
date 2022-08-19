@@ -7,7 +7,7 @@ public class RenameFolderCommand : FileManagerCommand
     private readonly IUserInterface _UserInterface;
     private readonly FileManagerLogic _FileManager;
 
-    public override string Description => "Переименование директории";
+    public override string Description => "Переименование директории. Указать полный путь, а потом на запрос имя.";
 
     public RenameFolderCommand(IUserInterface UserInterface, FileManagerLogic FileManager)
     {
